@@ -1,0 +1,6 @@
+[submodule "tg2019task"]
+	path = tg2019task
+	url = git@github.com:umanlp/tg2019task.git
+[submodule "tg2020task"]
+	path = tg2020task
+	url = git@github.com:cognitiveailab/tg2020task.git
