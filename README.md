@@ -306,9 +306,10 @@ Single-fact (`single_fact_ranknet_1.json`):
 
 ## Pretrained models
 
-We added 2 zip files to the `trained_models` folder. The file `ARCF-RankNet.zip` contains a file `pytorch_model.bin`
+We provide two trained models, you can download them [here](https://drive.google.com/drive/folders/1_WRXVqULJG0YYHM8AYFjNDCCj1IRFyda?usp=sharing). 
+The file `ARCF-RankNet.zip` contains a file `pytorch_model.bin`
 with the parameters of our best performing model;
-the `distilroberta-base` model that got a MAP score of 0.5815 on the 2020 test set and was trained with RankNet.
+the `distilroberta-base` model that got a MAP score of 0.5815 on the 2020 test set and that was trained with RankNet.
 
 The file `Single-Fact-Das-et-al.zip` has a file with the parameters of the `distilroberta-base` model we trained on the
 2020 data using the implementation of Das et al. ([link](https://github.com/ameyagodbole/multihop_inference_explanation_regeneration)), 
