@@ -1,0 +1,78 @@
+{
+  "seed": 41,
+  "do_eval": false,
+  "do_test": false,
+
+  "train_neg_sample_rate": 0.9,
+  "downsample_negatives": false,
+  "upsample_positives": false,
+  "eval_top_k": 9707,
+
+  "data_dir": "./data",
+  "output_dir": "./output",
+  "cache_dir": "./cache",
+
+  "task": "20",
+  "algo": "single-fact",
+
+  "2020v2": true,
+  "fact_path": "./tg2020task/dataset_v2/tables",
+  "qa_dir": "./tg2020task/dataset_v2/",
+  "train_qa_file": "questions.train.tsv",
+  "val_qa_file": "questions.dev.tsv",
+  "test_qa_file": "questions.test.tsv",
+  "lvl_col_name": "arcset",
+
+  "train_pair_file": "./data/20-v2-train-qa-fact-all-pairs-df.bin",
+  "dev_pair_file": "./data/20-v2-dev-qa-fact-all-pairs-df.bin",
+  "test_pair_file": "./data/20-v2-test-qa-fact-all-pairs-df.bin",
+
+  "max_seq_length": 140,
+  "answer_choices": "correct",
+  "mark_correct_in_qa": true,
+  "mark_answer_in_qa": true,
+
+  "model_type": "roberta",
+  "model_name_or_path": "distilroberta-base",
+  "config_name": "",
+  "tokenizer_name": "",
+
+  "loss": "ranknet",
+  "evaluate_during_training": true,
+  "no_lower_case": false,
+
+  "learning_rate": 2e-5,
+  "_weight_decay": 0.0,
+  "weight_decay": 0.01,
+  "_learning_rate": 3e-05,
+  "adam_epsilon": 1e-08,
+  "max_grad_norm": 1.0,
+  "max_steps": -1,
+  "lr_decay_per_epoch": false,
+  "lr_decay": true,
+  "_approx_num_steps": 66000,
+  "__approx_num_steps": 44000,
+  "approx_num_steps": 12695,
+
+  "logging_steps": 12695,
+  "_logging_steps": 44000,
+  "eval_steps": 12695,
+  "_eval_steps": 44000,
+  "save_steps": 12695,
+  "_save_steps": 44000,
+  "num_train_epochs": 5,
+  "_num_train_epochs": 3,
+
+  "no_cuda": false,
+  "overwrite_output_dir": true,
+  "overwrite_cache": false,
+
+  "per_gpu_train_tokens_per_batch": 5000,
+  "_per_gpu_train_tokens_per_batch": 0,
+  "per_gpu_eval_tokens_per_batch": 0,
+  "per_gpu_train_batch_size": 0,
+  "_per_gpu_train_batch_size": 200,
+  "per_gpu_eval_batch_size": 1200,
+  "num_train_workers": 4,
+  "num_eval_workers": 1
+}

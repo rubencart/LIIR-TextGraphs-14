@@ -1,0 +1,35 @@
+{
+  "seed": 42,
+  "do_eval": false,
+  "do_test": true,
+  "vsc": false,
+
+  "eval_top_k": 9727,
+
+  "data_dir": "./data",
+  "output_dir": "./output",
+  "cache_dir": "./cache",
+
+  "task": "20",
+  "algo": "tf_idf",
+  "model_type": "tf_idf",
+
+  "2020v2": true,
+  "fact_path": "./tg2020task/dataset_v2/tables",
+  "qa_dir": "./tg2020task/dataset_v2/",
+  "train_qa_file": "questions.train.tsv",
+  "val_qa_file": "questions.dev.tsv",
+  "test_qa_file": "questions.test.tsv",
+  "lvl_col_name": "arcset",
+
+  "max_seq_length": 140,
+  "answer_choices": "correct",
+  "mark_correct_in_qa": true,
+  "mark_answer_in_qa": true,
+  "stem_before_tf_idf": true,
+
+  "no_lower_case": false,
+
+  "overwrite_output_dir": true,
+  "overwrite_cache": false
+}
