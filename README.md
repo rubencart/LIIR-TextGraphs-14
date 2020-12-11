@@ -10,7 +10,7 @@ Link to workshop web page: https://sites.google.com/view/textgraphs2020
 
 Link to competition github page: https://github.com/cognitiveailab/tg2020task
 
-Link to 2019 competition summary: https://www.aclweb.org/anthology/D19-5309.pdf
+Link to 2019 competition summary: https://www.aclweb.org/anthology/D19-5309.pdf, and 2020 competition summary: https://www.aclweb.org/anthology/2020.textgraphs-1.10/.
 
 Link to WorldTree v2 dataset paper: https://www.aclweb.org/anthology/2020.lrec-1.671.pdf
 
