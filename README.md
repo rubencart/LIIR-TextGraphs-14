@@ -1,6 +1,6 @@
-# LIIR-KULeuven at TextGraphs-14
+# LIIR-KULeuven at TextGraphs-14: Autoregressive Reasoning over Chains of Facts with Transformers
 
-This repository contains the implementation for our submission to the TextGraphs-14 shared task on Multi-Hop Inference for Explanation Regeneration.
+This repository contains the implementation for our submission to the TextGraphs-14 shared task on Multi-Hop Inference for Explanation Regeneration. The paper about our method was published at COLING 2020: [link](https://www.aclweb.org/anthology/2020.coling-main.610/).
 If you run into troubles, or if you have questions, contact Ruben Cartuyvels at first . last @ kuleuven . be.
 
 We used Das et al.'s implementation for the single-fact and path-rerank baseline results in our paper: https://github.com/ameyagodbole/multihop_inference_explanation_regeneration.
